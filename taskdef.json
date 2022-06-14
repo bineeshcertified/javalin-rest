@@ -1,5 +1,5 @@
 {
-    "executionRoleArn": "arn:aws:iam::601912882130:role/ecsTaskExecutionRole",
+    "executionRoleArn": "arn:aws:iam::224718700768:role/ecsTaskExecutionRole",
     "containerDefinitions": [
         {
             "logConfiguration": {
@@ -17,7 +17,7 @@
                     "containerPort": 7000
                 }
             ],
-            "image": "601912882130.dkr.ecr.us-west-2.amazonaws.com/javalin-app:425ad54",
+            "image": "224718700768.dkr.ecr.us-west-2.amazonaws.com/javalin-app:425ad54",
             "name": "javalin-app"
         }
     ],
