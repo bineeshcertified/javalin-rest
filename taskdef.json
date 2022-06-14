@@ -6,7 +6,7 @@
                 "logDriver": "awslogs",
                 "options": {
                     "awslogs-group": "/fargate/service/javalin-app",
-                    "awslogs-region": "eu-west-1",
+                    "awslogs-region": "us-west-2",
                     "awslogs-stream-prefix": "fargate"
                 }
             },
@@ -17,7 +17,7 @@
                     "containerPort": 7000
                 }
             ],
-            "image": "601912882130.dkr.ecr.eu-west-1.amazonaws.com/javalin-app:425ad54",
+            "image": "601912882130.dkr.ecr.us-west-2.amazonaws.com/javalin-app:425ad54",
             "name": "javalin-app"
         }
     ],
